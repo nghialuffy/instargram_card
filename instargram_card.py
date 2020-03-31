@@ -43,6 +43,7 @@ if (NAME==""):
 
 
 image = Image.open(PATH)
+image = image.resize((1080, 1080), Image.ANTIALIAS)
 h = image.size[0]
 w = image.size[1]
 
